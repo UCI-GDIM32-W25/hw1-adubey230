@@ -9,39 +9,38 @@ Prompt: Include the HW1 break-down exercise you wrote during the Week 1 - Lectur
 
 
 Objects:
-Player (bunny)
-Player aesthetics
-Bunny (white/purple)
-Seeds/Plant
-Plant aesthetics 
-Green leaves
-UI
-Seeds planted
-Seeds remaining
+    Player (bunny)
+    Player aesthetics
+    Bunny (white/purple)
+    Seeds/Plant
+    Plant aesthetics 
+    Green leaves
+    UI
+    Seeds planted
+    Seeds remaining
 
 Attributes/Actions:
-
-Player movement:
-Actions:
-WASD and space key to plant
-Plantings / pressing space 
-Seed prefab to create a clone when player presses space 
-UI to change when player presses space 
+    Player movement:
+        Actions:
+            WASD and space key to plant
+            Plantings / pressing space 
+            Seed prefab to create a clone when player presses space 
+            UI to change when player presses space 
 
 
 Plants:
-When player presses space, the plant is placed at the player’s location 
-Only one seed at a time 
+    When player presses space, the plant is placed at the player’s location 
+    Only one seed at a time 
 
 Affect:
-The plants are planted specifically at the player’s location
-After planting 5 seeds, the player will not be able to plant anymore
-The player is limited to plant
-UI
-Depending on how many seeds are planted, the UI changes the number of seeds remaining/planted
-When player plants a seed:
-Seeds planted UI goes up
-Seeds remaining UI goes down 
+    The plants are planted specifically at the player’s location
+    After planting 5 seeds, the player will not be able to plant anymore
+    The player is limited to plant
+    UI
+    Depending on how many seeds are planted, the UI changes the number of seeds remaining/planted
+    When player plants a seed:
+    Seeds planted UI goes up
+    Seeds remaining UI goes down 
 
 
 
