@@ -42,6 +42,9 @@ Affect:
     Seeds planted UI goes up
     Seeds remaining UI goes down 
 
+Connection to the code:
+    Having a list of objects helped me recognize the ones that I was missing, which in this case was a plant so I created a gameobject called 'plant'. For the actions, I associted the movements of my sprite with the 'WASD' keys in the player script under Update(). The logic that lets the player 'plant' is located within the metod 'PlantSeed()'. Within this method, it recognizes how many seeds are left to plant and if the player can plant anymore seeds. It also updates the _numSeedsLeft and _numSeedsPlanted which are both used as an argument for UpdateSeeds in the PlantCountUI script.
+
 
 
 ## Open-Source Assets
